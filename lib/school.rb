@@ -23,7 +23,10 @@ def grade(grade)
 end
 
 def sort
-@roster.values.sort
-
+hash = {}
+@roster.each do |grade, students|
+  hash[grade] = students
+end
+return hash
 end
 end
