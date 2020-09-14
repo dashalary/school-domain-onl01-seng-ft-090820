@@ -25,7 +25,7 @@ end
 def sort
 hash = {}
 @roster.each do |grade, students|
-  hash[grade] = students
+  hash[grade] = students.sort
 end
 return hash
 end
