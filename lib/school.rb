@@ -23,7 +23,7 @@ def grade(grade)
 end
 
 def sort
-@roster.sort
+@school.sort
 
 end
 end
